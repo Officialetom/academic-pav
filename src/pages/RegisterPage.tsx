@@ -1,5 +1,6 @@
 import Button from "../components/Button";
 import logo from "../assets/logo.jpg";
+import { Link } from "react-router-dom";
 
 function RegisterPage() {
   return (
@@ -7,7 +8,7 @@ function RegisterPage() {
       <Button href="/" name="Home" />
       <div className="login-container">
         <div className="login-item">
-          <h5>Sign up</h5>
+          <h5>Sign up E</h5>
           <img src={logo} alt="login-logo" />
         </div>
         <div className="login-item">
@@ -55,7 +56,7 @@ function RegisterPage() {
             </button>
           </form>
           <div className="form-links">
-            <a href="/login">Login</a>
+            <Link to="/login">Login</Link>
           </div>
         </div>
       </div>
