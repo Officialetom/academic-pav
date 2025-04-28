@@ -1,5 +1,6 @@
 import Button from "../components/Button";
 import logo from "../assets/logo.jpg";
+import { Link } from "react-router-dom";
 
 function ForgotPage() {
   return (
@@ -25,7 +26,7 @@ function ForgotPage() {
             </button>
           </form>
           <div className="form-links">
-            <a href="/login">Remember password?</a>
+            <Link to="/login">Remember password?</Link>
           </div>
         </div>
       </div>
