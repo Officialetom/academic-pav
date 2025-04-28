@@ -1,5 +1,6 @@
 import Button from "../components/Button";
 import logo from "../assets/logo.jpg";
+import { Link } from "react-router-dom";
 
 function LoginPage() {
   return (
@@ -45,8 +46,8 @@ function LoginPage() {
             </button>
           </form>
           <div className="form-links">
-            <a href="/register">Sign up</a>
-            <a href="/forgot">Forgot password?</a>
+            <Link to="/register">Sign up</Link>
+            <Link to="/forgot">Forgot password?</Link>
           </div>
         </div>
       </div>
